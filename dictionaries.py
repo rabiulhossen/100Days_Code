@@ -7,6 +7,29 @@ dic = {
 }
 
 
+eng2ban = {
+    'one': 'ak', 'two': 'dui', 'three': 'tin'
+}
+
+print(eng2ban['one'])
+print('two' in eng2ban)
+print(dict())
+
+
+def histogram (s):
+    d = dict()
+    for c in s:
+        print(c)
+        '''
+        if c not in d:
+            d[c]=1
+        else:
+            d[c]+=1
+    return d
+'''
+print(histogram('rabiulsimon'))
+
+
 
 
 """
